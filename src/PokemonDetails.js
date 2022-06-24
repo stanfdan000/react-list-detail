@@ -9,7 +9,6 @@ export default function PokemonDetails() {
   useEffect(() => {
     async function onload() {
       const data = await getSinglePokeMonCard(params.id);
-      console.log(data);
       setPokeMon(data);
     }
     onload();
