@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 require('dotenv').config();
 
 const headers = {
-  'Access-Control-Allow-Origin'0: '*',
+  'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Headers': 'Content-Type',
   'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE'
 };
