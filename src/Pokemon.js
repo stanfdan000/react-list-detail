@@ -10,8 +10,8 @@ export default function Pokemon({ pokemon }) {
         <p>{pokemon.hp}</p>
         <p>{pokemon.Attack}</p>
         <p>{pokemon.defense}</p>
-        <p>{pokemon.spattack}</p>
-        <p>{pokemon.spdefense}</p>
+        <p>{pokemon.spSAttack}</p>
+        <p>{pokemon.spDefense}</p>
         <p>{pokemon.speed}</p>
       </Link>
     </div>
