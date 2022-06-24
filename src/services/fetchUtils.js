@@ -19,5 +19,5 @@ export async function getSinglePokeMonCard(id) {
     .single();
   
   return checkError(response);
-  
 }
+  

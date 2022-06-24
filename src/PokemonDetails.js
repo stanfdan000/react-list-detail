@@ -27,6 +27,7 @@ export default function PokemonDetails() {
         <p>{pokemon.spAttack}</p>
         <p>{pokemon.spDefense}</p>
         <p>{pokemon.speed}</p>
+        <p></p>
       </div>
     </>
   );
