@@ -13,12 +13,11 @@ export default function Pokemon({ pokemon }) {
         <p>{pokemon.spAttack}</p>
         <p>{pokemon.spDefense}</p>
         <p>{pokemon.speed}</p>
-        <p></p>
       </Link>
     </div>
-    
   );
 }
+    
     
         
 
